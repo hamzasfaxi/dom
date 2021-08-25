@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./shopping.css" />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script src="shoping.js"></script>
+    <table>
+      <tr>
+        <th>product</th>
+        <th>quantity</th>
+        <th>price</th>
+        <th>make your choice</th>
+      </tr>
+
+      <tr>
+        <td>
+          <img
+            class="img1"
+            src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8QEA8QDxIOEA8RDxAQEA8PDw8NDQ8NFREWFxURFRUYHSggGBolHRUVITEhMSstMC4uGB8/ODMsNygtLysBCgoKDg0OGxAPFSsdHR0rLS0rLS0tLS0tKystLS0tLSstLS03KystLSsvLTcrKy0rNy0rLSs3Ny0tLTctNy0tLf/AABEIAN8A4gMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAAAgMEBQYHCAH/xABFEAACAQMABgYGBwQIBwAAAAAAAQIDBBEFBxIhMVEGQWFxgZETIiOhscEyUmJyksLRFFNzgiQlRGNks/DxFTM0QqKksv/EABgBAQEBAQEAAAAAAAAAAAAAAAABAgME/8QAHhEBAQEBAQACAwEAAAAAAAAAAAECETEDURIhcTL/2gAMAwEAAhEDEQA/AO4gAAAAAAAAAAAAAAAAAAAAAAAAAAA2fIyTWU8rmgPoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFKtXjHjx5dZSr3XVHz/QsZPPE1InUri4lLjuXJcC50W/VkvtfJFhIrWV5SpycalSnBzxsKc4wc2s5UU+PFFviRlgEyFSrGPF4+JhpM+ZXDr5dZj69+3uju7XxLWym5VoZbePSPf2JL5l4nWbABFAAAAAAAAAAAAAAAAAAAAAAA+SeAEpJb2Wdes32I+1ZtlGRuRm1TZBk2U2UQkav07sLatRpq5pwqRVTEdr/tbi96fVwNokabrSm42HpFxp16UvB5g/8A7NZz+V5EaxbaHjRw7K80hZ44Qo3U3R8YSymZrQuldJ0aiVxc0r2g3iTqUlQuYL60ZQ3S7mt/NHN6On5LrL+h0jfMiu4W93CfBovdFx9q+yE3+Ka/Q5l0W016SKafCWy/c/mdJ6OT23OXKMV72zv8/wAUzianlTN7eM4ADxtgAAAAAAAAAAAAAAAAAAAAAULypswlLe9lOWFxeE3hFctdJqTpSUVmTWyllLjuzv5ZyWelW9OopRjJZSlFSw+KTWcM+SPlGm4wjFvLSw32/oJG2UGQkTkU2BCRqes+jt6LukuK9DLwjXg37sm2M17p3DOjb/sta0vGMXL5G/j1+Opr6qV5tVVk43DLerulJcpNe8jkzZy8G/6u7xuVWL+tB+af6He+iMfZSfOS93+55y1eT9rVX8P856S6KRxbRfNt+5Hf5d9+HOfozP2zIAPG2AAAAAAAAAAAAAAAAAAAAABSuOC7yqUbngiz1KtZFORORTkbRBkJE2U5AQZjtO0tu1uocdu3rRx305IyEilVhtJx5prz3AeTa30pdrb895AnWjiWHxSjnv2UQNb/ANX+szxtWrx+3mutqHkm/wBT070chi2pd2TzNq5315rH1Hnz3HqDREcUKS+wjOr+movAAc2gAAAAAAAAAAAAAAAAAAAAAKFz1eJXKF11eJZ6lWsimycinI2iEiDJspsCEimypIpSA8s9IKexd3MVwjXqRXYoya+RYGb6b0NjSN9H/FVpfiqSl8zCCo3bVjFurPdu2o4fbh5Xw8z09ZLFOmvsR+B5r1U026j5ekWPdk9L0liMVyivgZ01EwAZUAAAAAAAAAAAAAAAAAAAAAC2uuruLktbrj4FnqVbSKbKkimzaIMgybKbAhIpyKjKcgPOusqjjSt72zhL8VOL+ZrWwbprVpY0rX+1ToS86aXyNTUQjoGqSk/SLPB1N3du+aZ6MRwHVBR9pD7+7uO/GdNQABlQAAAAAAAAAAAAAAAAAAAAALS64+Bdlnc/Sfh8C5SreRBk5FNm0QZBk2QYEGUpFSRTkBxDXBDGkk/rWlF+U6q+RpMX6zXUlF+aOga6KeL22l9a0Ufw1pv8yNAjLq5AdY1NU/Xh97Phk7kcX1K098H95+87QZ0sAAZUAAAAAAAAAAAAAAAAAAAAACxuPpMvjH1nvfezWUqlIgyTIM0iLKbJsgwISKcipIpyA5Hrtj7axfOlcLylT/U5ujqGu6n/ANBPk7mPn6J/lOXoDtmpOnui/sy+B145XqVh7NP+7XvR1QxpYAAigAAAAAAAAAAAAAAAAAAAAAY6o97MgzGyNZSoMgybIM0iDIMmyDAgynIqMpyA5nrtj7Czf+ImvOk38jk6Ova6o/0O2fK8Xk6FU5AgPQGpiGKGf7uJ0s55qehi2z9lHQzFWAAIoAAAAAHycsJs+lteTeMLjhvx6iwYy8tKc5OVadae/Kh6apClFctiDUWu1pvtFWr6CMFTWzTVSmmo/R2ZzUM+cs+BQuKkt+Np+o9rMMYjnc1w5v8A1wtOkF9GjZ3dScmowt5uLkth+lcWoRW5b3LZS7cHXMnZ3xis9ts+bRr9h0w0fVpwqftFGntRTcKs1SnGXXFp8n18C6XSKxaclc22ytzl6WGyn35Mqy22WyuJTnWg/Wpx2KbjxW047Us9mzOHkY2fSnR8U27q2wll7NSM5Y7IrLZbdFNOQu6E61LO+4rqSxmccT9mpLqzT9GzU5y9RlYWFKMs0pVaUl+6rVFDP8NtwfjFmdpT2lkxMljLS9bGcZzhvjuLnR1ZvOc8llYz4eZixYyAAMNI1HufczHSMhXfqvuMdI1lKgyDJsgzSIsgyTIsCDISJshIDQNckM6Pg+V3S99Ooji527W/HOjJP6txQfnJx/McRA9IapIYtfCPwN8NJ1VRxZ/h+Buxi+rAAEUAAAAACwrzzKXfjyL8xMp8XzbfmaylUq0c78tbsPGN638+9+ZxPp90qleVvR05f0WnKSpJcKs4vZlVfPr2ezf1m+aztPu0spxg8VrhujTa3SjFr2k1yxHKzzkjhtC2rVFiEJSjH6sZSUfLgaRXr1Fuzx34zxxjiWcprON/mVpWNVcYVG+WzLJH0FX93PP3ZAV6Esd7WfDsM70X6S1bCvGrBuUHurUuHpaK68cNpZ3P5NmuxtKrX0Jp9XqyI1bKvBbThNRysycZJdiywPS9ndRqqFWnNTpzipwkuEoSWU/eZC3qY38mmcr1P6bc6VSzm/Wo+0pZe/0Mn60V92T/APNHTaEgM8CFF5jF9i+BM5tKVy/Vfh8SwZe3f0fEspG8s1TkU2yUmU2yj6RYyAIspyKjISA0rW0v6qr9lW3/AM+BwxHeNa0f6puuyVs//apL5nB48V3gem9V8cWS/l+BuJqerSOLKHh8DbDF9WAAIoAAAAA+S4Mwcp7jOmraTuo0YVZ1HiNKM5Tb3JRgm2/JGspXJ+mu3pPTFKypPdTcaCeMqMpYnWn4LC74HddEaMo2lGnQoQjClTiopJYzzk+cnxb6zkGo2xlc3N5pCot+1JJv97Vltz+K8mdrGiAwAZUIVqUZxlCcYzhJNSjJKUZRfFNPiiYA8/aYsP8AgmmqbhmNtKalHfuVrV9WcG+vYbz/ACxOuW095rGvXRHpbKFylmVCaUt2/wBDP1ZLzw/5Sr0L0r+0WdtVbzJ0lGf8WHqz98WdJ4y6DafQj3FYp28cQinxUVnvwVDm0o3MG0sbzU9LdLrG2qyoVqko1Y424KlVk4ZWVnC5NPxNxkn1bveeaOnir09IXk7uE6Up3E3GU4uNOdLOKbjPg1sKPX37zeUrsdv0nsav0Lmhl8FKapS8pYZkY1FJZi01zTTR5one/VnnullH220tXpvNOpKD5wew/OODXGXpdSKiOAWXT3SVPGK7muVVKrnxlv8AeZyjrhuaSSq2tGtzlCrOg34NSwQdiZBnMbXXVatL0tpcwfWqc6VZLub2cmVtta+ip/SdzT+/Qbx+BsKvNaNNy0TeJccUH5XVJ/I4JCjPKbSxlfE7N0o6aaPurWpQtpyuKtZwiqcKVXawpxk21s7+HBGY0ZqxpVLahUbnb15UoSqU5whVjGo1lrG5ruy8CjZ9XsMWUF4e42YxXR3Rs7aj6Ocoye02nHONnx6zKmL60AAgAAAAADMH0l6OQvqNSjVk1CotmTht05tcm4yWV2PcZwAa30R6MPRlsrajOMoqc5uc17SUpSb345cPAz0VU63ErACmtrsPvrdhMAQ9bsPjUuaKgAxmmdF/tVCtb1XH0danKnL1d6UljK7TD9DehFLRkNinUlVTltt1E29vGMpbWzHh1I2sAAAAI1KcZLEkpLk0miQAxN10Y0dV/wCbZ2VT79tRk/fEsJ9ANDPjYWXhRhH4GygDVJat9CP+w23gpL4Mo1NV+g5f2KkvuzrR/MbiC9GhVdUOhXwoSj3VG/jkhHVFoqP0YecYyOgAg1XRfQe3tpKVBunJcJQWy8eDNjoUpx3Obl3xWSuAAAAAAAAAP//Z"
+            alt=""
+          />
+        </td>
+        <td>
+          <button class="button1" type="button">+</button>
+          <input type="text" class="quantity" value="1" />
+          <button>-</button>
+        </td>
+        <td>300$</td>
+        <td>
+          <button>buy</button>
+          <button>delete</button>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <img
+            class="img2"
+            src="https://static.fnac-static.com/multimedia/Images/FD/Comete/131499/CCP_IMG_ORIGINAL/1721145.jpg"
+            alt=""
+          />
+        </td>
+        <td>
+          <button class="button1" type="button">+</button>
+          <input type="text" class="quantity" value="1" />
+          <button>-</button>
+        </td>
+        <td>400$</td>
+        <td>
+          <button>buy</button>
+          <button>delete</button>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <img
+            class="img3"
+            src="https://static.fnac-static.com/multimedia/Images/FR/NR/52/bb/cd/13482834/1540-1/tsp20210712154234/FIFA-22-PS5.jpg"
+            alt=""
+          />
+        </td>
+        <td>
+          <button class="button1" type="button">+</button>
+          <input type="text" class="quantity" value="1" />
+          <button>-</button>
+        </td>
+        <td>70$</td>
+        <td>
+          <button>buy</button>
+          <button>delete</button>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

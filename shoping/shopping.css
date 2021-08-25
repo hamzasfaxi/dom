@@ -1,0 +1,35 @@
+table,
+tr,
+th {
+  border: solid black;
+  margin: auto;
+  display: flexbox;
+  text-align: center;
+  width: 700px;
+  height: 100px;
+}
+
+.img1 {
+  width: 200px;
+  height: 200px;
+}
+
+.img2 {
+  width: 200px;
+  height: 200px;
+}
+
+.img3 {
+  width: 200px;
+  height: 200px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.quantity {
+  width: 30px;
+  border: none;
+  text-align: center;
+}

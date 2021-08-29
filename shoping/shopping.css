@@ -5,8 +5,28 @@ th {
   margin: auto;
   display: flexbox;
   text-align: center;
-  width: 700px;
+  width: 1000px;
   height: 100px;
+}
+
+#th1 {
+  background-color: rgb(129, 129, 253);
+}
+
+#th2 {
+  background-color: rgb(129, 129, 253);
+}
+
+#th3 {
+  background-color: rgb(129, 129, 253);
+}
+
+#th4 {
+  background-color: rgb(129, 129, 253);
+}
+
+#th5 {
+  background-color: rgb(129, 129, 253);
 }
 
 .img1 {
@@ -30,6 +50,6 @@ button {
 
 .quantity {
   width: 30px;
-  border: none;
+
   text-align: center;
 }

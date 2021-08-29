@@ -6,19 +6,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>buy your ps</title>
   </head>
   <body>
     <script src="shoping.js"></script>
     <table>
       <tr>
-        <th>product</th>
-        <th>quantity</th>
-        <th>price</th>
-        <th>make your choice</th>
+        <th id="th1"><h2 style="color: white">product</h2></th>
+        <th id="th2"><h2 style="color: white">quantity</h2></th>
+        <th id="th3"><h2 style="color: white">price</h2></th>
+        <th id="th4"><h2 style="color: white">make your choice</h2></th>
       </tr>
 
-      <tr>
+      <tr id="tablerow1">
         <td>
           <img
             class="img1"
@@ -27,14 +27,18 @@
           />
         </td>
         <td>
-          <button class="button1" type="button">+</button>
-          <input type="text" class="quantity" value="1" />
-          <button>-</button>
+          <button onclick="buttonplus()" class="button1" type="button">
+            +
+          </button>
+          <input type="text" id="but1" class="quantity" value="0" />
+          <button onclick="buttonminus()" class="button2" type="button">
+            -
+          </button>
         </td>
         <td>300$</td>
         <td>
-          <button>buy</button>
-          <button>delete</button>
+          <button type="submit">buy</button>
+          <button type="submit" id="delet">delete</button>
         </td>
       </tr>
 
@@ -47,9 +51,13 @@
           />
         </td>
         <td>
-          <button class="button1" type="button">+</button>
-          <input type="text" class="quantity" value="1" />
-          <button>-</button>
+          <button onclick="buttonplus()" class="button1" type="button">
+            +
+          </button>
+          <input type="text" id="but2"  class="quantity" value="0" />
+          <button onclick="buttonminus()" class="button2" type="button">
+            -
+          </button>
         </td>
         <td>400$</td>
         <td>
@@ -67,9 +75,13 @@
           />
         </td>
         <td>
-          <button class="button1" type="button">+</button>
-          <input type="text" class="quantity" value="1" />
-          <button>-</button>
+          <button onclick="buttonplus()" class="button1" type="button">
+            +
+          </button>
+          <input type="text" id="but3" class="quantity" value="0" />
+          <button onclick="buttonminus()" class="button2" type="button">
+            -
+          </button>
         </td>
         <td>70$</td>
         <td>

@@ -9,7 +9,6 @@
     <title>buy your ps</title>
   </head>
   <body>
-    <script src="shoping.js"></script>
     <table>
       <tr>
         <th id="th1"><h2 style="color: white">product</h2></th>
@@ -35,14 +34,16 @@
             -
           </button>
         </td>
-        <td>300$</td>
+        <td type="numbre"  >
+          <input type="text" class="price" id="price1" value="300" >
+          $</td>
         <td>
           <button type="submit">buy</button>
           <button type="submit" id="delet">delete</button>
         </td>
       </tr>
 
-      <tr>
+      <tr id="tablerow2">
         <td>
           <img
             class="img2"
@@ -51,22 +52,24 @@
           />
         </td>
         <td>
-          <button onclick="buttonplus()" class="button1" type="button">
+          <button onclick="buttonplus1()" class="button1" type="button">
             +
           </button>
-          <input type="text" id="but2"  class="quantity" value="0" />
-          <button onclick="buttonminus()" class="button2" type="button">
+          <input type="text" id="but2" class="quantity" value="0" />
+          <button onclick="buttonminus1()" class="button2" type="button">
             -
           </button>
         </td>
-        <td>400$</td>
+        <td >
+          <input type="text" class="price" value="400">
+          $</td>
         <td>
           <button>buy</button>
-          <button>delete</button>
+          <button type="submit" id="delet2">delete</button>
         </td>
       </tr>
 
-      <tr>
+      <tr id="tablerow3">
         <td>
           <img
             class="img3"
@@ -75,20 +78,33 @@
           />
         </td>
         <td>
-          <button onclick="buttonplus()" class="button1" type="button">
+          <button onclick="buttonplus2()" class="button1" type="button">
             +
           </button>
           <input type="text" id="but3" class="quantity" value="0" />
-          <button onclick="buttonminus()" class="button2" type="button">
+          <button onclick="buttonminus2()" class="button2" type="button">
             -
           </button>
         </td>
-        <td>70$</td>
+        <td >
+          <input type="text" class="price" value="70" >
+          
+          
+          $</td>
         <td>
           <button>buy</button>
-          <button>delete</button>
+          <button type="submit" id="delet3">delete</button>
+        </td>
+      </tr>
+
+      <tr>
+        <td style="color: rgb(57, 57, 240);" id="sumtotal">sumtotal</td>
+        <td></td>
+        <td   >
+          <input type="text" id="total" value="0" />
         </td>
       </tr>
     </table>
+    <script src="shoping.js"></script>
   </body>
 </html>

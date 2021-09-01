@@ -1,0 +1,28 @@
+ALGORITHM algorithm_name
+VAR
+array_name : ARRAY_OF type[length];
+l,sum1,sum2 : INTEGER;
+BEGIN
+    read(X);
+    l=X.length();
+    FOR i FROM min TO max STEP step  DO
+        IF (X[i]==' ') THEN
+            sum1++;
+        ELSE_IF (X[i]=='a, e, i, o, u') THEN
+            sum2++;
+        END_IF
+    END_FOR
+    write(l)
+    write(sum1)
+    write(sum2)
+END
+
+
+
+FUNCTION function_name(parameters) : return_type
+VAR
+    set_declarations
+BEGIN
+    set_instructions
+    RETURN value ;
+END

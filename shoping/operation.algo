@@ -1,0 +1,7 @@
+ALGORITHM dot_product
+VAR
+    ARRAY_OF: vector
+    
+BEGIN
+    set_instructions
+END

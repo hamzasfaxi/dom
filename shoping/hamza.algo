@@ -1,0 +1,16 @@
+ALGORITHM algorithm_name
+VAR
+  
+  set1,set2 : ARRAY_OF INTEGER[]
+
+BEGIN
+    read(set1);
+    read(set2);
+FOR i FROM 0 TO set1.length STEP step  DO
+ FOR i FROM 0TO set2.length STEP step  DO
+
+   IF (set1[i]==set2[i]) THEN
+        return (i)
+        ELSE (set1[i]+set2[i])
+    END_IF
+END

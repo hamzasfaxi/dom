@@ -53,3 +53,25 @@ button {
 
   text-align: center;
 }
+
+#sumtotal {
+  font-size: large;
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+#total {
+  text-align: center;
+  flex: content;
+  width: fit-content;
+  height: fit-content;
+}
+
+.price {
+  border: none;
+  width: 30px;
+  text-align: center;
+}
+
+
